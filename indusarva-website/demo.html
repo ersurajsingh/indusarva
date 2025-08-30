@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndusArva Innovations - FIN-GENIE Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #1d4ed8, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-500 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">IA</span>
+                    </div>
+                    <span class="font-semibold text-xl text-gray-900">IndusArva</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#hero" class="text-blue-600 font-medium">Home</a>
+                    <a href="#problem" class="text-gray-600 hover:text-blue-600">Problem</a>
+                    <a href="#solution" class="text-gray-600 hover:text-blue-600">Solution</a>
+                    <a href="#demo" class="text-gray-600 hover:text-blue-600">Demo</a>
+                    <a href="#team" class="text-gray-600 hover:text-blue-600">Team</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
+                <span class="gradient-text">Unlocking Credit for a Billion Entrepreneurs</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                FIN-GENIE revolutionizes credit assessment through AI-powered behavioral intelligence, 
+                making financial inclusion a reality for SMEs worldwide.
+            </p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 px-8 rounded-lg text-lg shadow-lg hover:shadow-xl transition-all">
+                Experience FIN-GENIE →
+            </button>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        The Credit Invisibility Crisis
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Millions of entrepreneurs worldwide are trapped in a cycle of credit invisibility, 
+                        unable to access the funding they need to grow their businesses.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center p-6 bg-white rounded-xl shadow-lg">
+                            <div class="text-4xl font-bold gradient-text mb-2">1B+</div>
+                            <div class="text-lg font-semibold text-gray-800 mb-2">Credit Invisible SMEs</div>
+                            <div class="text-sm text-gray-600">Entrepreneurs worldwide lack access</div>
+                        </div>
+                        <div class="text-center p-6 bg-white rounded-xl shadow-lg">
+                            <div class="text-4xl font-bold gradient-text mb-2">70%</div>
+                            <div class="text-lg font-semibold text-gray-800 mb-2">Loan Rejections</div>
+                            <div class="text-sm text-gray-600">SME applications rejected by banks</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">
+                        Why Traditional Credit Scoring Fails
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg">
+                            <div class="text-2xl">🏦</div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Traditional Credit Barriers</h4>
+                                <p class="text-sm text-gray-600">Banks rely on outdated models that exclude millions</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg">
+                            <div class="text-2xl">📊</div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Limited Financial History</h4>
+                                <p class="text-sm text-gray-600">SMEs lack extensive financial records required</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    FIN-GENIE: <span class="gradient-text">Beyond the Balance Sheet</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our revolutionary AI-powered platform transforms credit assessment by analyzing 
+                    behavioral patterns and character traits.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center">
+                    <div class="text-6xl mb-4">🎮</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Gamified Assessment</h3>
+                    <p class="text-gray-600">Interactive experience capturing character traits and financial discipline</p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center">
+                    <div class="text-6xl mb-4">🧠</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Behavioral Intelligence</h3>
+                    <p class="text-gray-600">Privacy-preserving analysis providing real-time reliability insights</p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center">
+                    <div class="text-6xl mb-4">🔍</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Explainable AI</h3>
+                    <p class="text-gray-600">Transparent system providing clear, understandable score breakdowns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="py-24 bg-gradient-to-br from-blue-50 to-blue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Experience <span class="gradient-text">FIN-GENIE</span> Yourself
+                </h2>
+                <p class="text-xl text-gray-600 mb-8">
+                    Take our interactive assessment to see how FIN-GENIE evaluates creditworthiness 
+                    through behavioral intelligence.
+                </p>
+                
+                <div class="bg-white rounded-2xl shadow-xl p-12 mb-8">
+                    <div class="grid md:grid-cols-3 gap-8 mb-8">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">⏱️</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">5 Minutes</h3>
+                            <p class="text-sm text-gray-600">Quick and engaging assessment</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">🎯</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">8 Questions</h3>
+                            <p class="text-sm text-gray-600">Covering key behavioral traits</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">📊</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Instant Results</h3>
+                            <p class="text-sm text-gray-600">See your score breakdown immediately</p>
+                        </div>
+                    </div>
+                    
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 px-8 rounded-lg text-lg shadow-lg">
+                        Start Assessment 🚀
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Meet the <span class="gradient-text">Minds Behind the Magic</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our founding team brings decades of experience from leading fintech companies 
+                    and financial institutions.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="h-32 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                    <div class="relative -mt-16 text-center pb-8 px-8">
+                        <div class="w-32 h-32 rounded-full border-4 border-white bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-4xl font-bold mx-auto mb-6">
+                            SK
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Suraj Kumar Singh</h3>
+                        <p class="text-blue-600 font-semibold mb-4">Co-Founder & CEO</p>
+                        <p class="text-gray-600">
+                            Visionary leader with extensive experience at Paytm, leading initiatives 
+                            serving millions of users in digital lending and credit assessment.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="h-32 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                    <div class="relative -mt-16 text-center pb-8 px-8">
+                        <div class="w-32 h-32 rounded-full border-4 border-white bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-4xl font-bold mx-auto mb-6">
+                            RP
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Rahul Pandey</h3>
+                        <p class="text-blue-600 font-semibold mb-4">Co-Founder & CTO</p>
+                        <p class="text-gray-600">
+                            Technology architect and AI specialist with deep expertise from Maybank, 
+                            building scalable systems processing millions of transactions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gradient-to-br from-blue-50 to-blue-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Join Us on the <span class="gradient-text">Journey</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Ready to revolutionize credit assessment? We'd love to hear from you.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-3xl">💰</div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-2">Investment Opportunities</h4>
+                                <p class="text-gray-600 mb-3">Join us in revolutionizing credit assessment and building inclusive finance.</p>
+                                <button class="text-blue-600 font-medium">Explore Investment →</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-3xl">🤝</div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-2">Banking Partnerships</h4>
+                                <p class="text-gray-600 mb-3">Partner with us to expand your lending capabilities.</p>
+                                <button class="text-blue-600 font-medium">Discuss Partnership →</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-md">
+                        <h4 class="font-semibold text-gray-900 mb-4">Direct Contact</h4>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3 text-gray-600">
+                                <span class="text-xl">📧</span>
+                                <span>info@indusarva.co</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-gray-600">
+                                <span class="text-xl">📞</span>
+                                <span>+918851454169</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl shadow-xl p-8">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Get in Touch</h3>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="Full Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                            <input type="email" placeholder="Email Address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <input type="text" placeholder="Company/Organization" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                        <textarea placeholder="Tell us about your interest in FIN-GENIE..." rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 rounded-lg text-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-500 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-sm">IA</span>
+                        </div>
+                        <span class="font-semibold text-xl">IndusArva Innovations</span>
+                    </div>
+                    <p class="text-gray-400 mb-4 max-w-md">
+                        Revolutionizing credit assessment through AI-powered behavioral intelligence, 
+                        making financial inclusion a reality for entrepreneurs worldwide.
+                    </p>
+                    <div class="text-sm text-gray-500">
+                        © 2024 IndusArva Innovations. All rights reserved.
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#demo" class="hover:text-white">Demo</a></li>
+                        <li><a href="#solution" class="hover:text-white">Features</a></li>
+                        <li><a href="#technology" class="hover:text-white">Technology</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#team" class="hover:text-white">Team</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                        <li><a href="#contact" class="hover:text-white">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-500">
+                <p>Built with ❤️ for financial inclusion</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Simple demo interaction
+        document.querySelector('button[class*="Start Assessment"]')?.addEventListener('click', function() {
+            alert('Interactive demo would start here! This showcases the FIN-GENIE assessment experience with behavioral intelligence questions and real-time credit scoring.');
+        });
+    </script>
+</body>
+</html>
