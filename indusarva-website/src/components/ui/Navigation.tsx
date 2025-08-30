@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { NavigationProps } from '../../types';
+import type { NavigationProps } from '../../types';
 
 const Navigation: React.FC<NavigationProps> = ({ currentSection, onSectionChange }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { HeroSectionProps } from '../../types';
+import type { HeroSectionProps } from '../../types';
 
 const HeroSection: React.FC<HeroSectionProps> = ({ headline, subheading, ctaButton }) => {
   const [displayedText, setDisplayedText] = useState('');

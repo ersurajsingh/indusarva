@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { TechnologyStackProps } from '../../types';
+import type { TechnologyStackProps } from '../../types';
 
 const TechnologySection: React.FC<TechnologyStackProps> = ({ technologies }) => {
   const ref = useRef(null);

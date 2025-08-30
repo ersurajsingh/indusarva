@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { TeamProfilesProps } from '../../types';
+import type { TeamProfilesProps } from '../../types';
 
 const TeamSection: React.FC<TeamProfilesProps> = ({ members }) => {
   const ref = useRef(null);

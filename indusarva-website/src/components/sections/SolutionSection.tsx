@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { SolutionOverviewProps } from '../../types';
+import type { SolutionOverviewProps } from '../../types';
 
 const SolutionSection: React.FC<SolutionOverviewProps> = ({ pillars }) => {
   const ref = useRef(null);

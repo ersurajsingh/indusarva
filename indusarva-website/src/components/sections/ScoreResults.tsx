@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ScoreResult } from '../../types';
+import type { ScoreResult } from '../../types';
 import { getScoreColor, getScoreGrade } from '../../utils/scoringAlgorithm';
 import RadarChart from '../ui/RadarChart';
 

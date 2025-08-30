@@ -1,4 +1,4 @@
-import { AssessmentQuestion } from '../types';
+import type { AssessmentQuestion } from '../types';
 
 export const demoQuestions: AssessmentQuestion[] = [
   {

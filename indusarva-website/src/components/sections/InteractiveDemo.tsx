@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { InteractiveDemoProps, DemoResponse } from '../../types';
+import type { InteractiveDemoProps, DemoResponse } from '../../types';
 import { SliderQuestion, MultipleChoiceQuestion, RatingQuestion } from '../ui/QuestionComponents';
 
 const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ questions, onComplete }) => {

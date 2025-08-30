@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { ProblemStatementProps } from '../../types';
+import type { ProblemStatementProps } from '../../types';
 
 const ProblemSection: React.FC<ProblemStatementProps> = ({ statistics, problemDescription }) => {
   const ref = useRef(null);

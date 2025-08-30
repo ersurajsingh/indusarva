@@ -1,4 +1,4 @@
-import { DemoResponse, ScoreResult, AssessmentQuestion } from '../types';
+import type { DemoResponse, ScoreResult, AssessmentQuestion } from '../types';
 
 export const calculateScore = (
   responses: DemoResponse[],

@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { ContactSectionProps, CONTACT_INFO } from '../../types';
+import type { ContactSectionProps } from '../../types';
+import { CONTACT_INFO } from '../../types';
 
 const ContactSection: React.FC<ContactSectionProps> = ({ contactTypes }) => {
   const ref = useRef(null);

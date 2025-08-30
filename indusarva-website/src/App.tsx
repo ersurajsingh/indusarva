@@ -21,7 +21,7 @@ import { problemData, solutionData, technologyData, teamData, contactData } from
 import { demoQuestions } from './data/demoQuestions';
 
 // Types
-import { DemoResponse, ScoreResult } from './types';
+import type { DemoResponse, ScoreResult } from './types';
 
 function App() {
   const sectionIds = ['hero', 'problem', 'solution', 'demo', 'technology', 'team', 'contact'];
