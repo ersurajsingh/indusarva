@@ -1,0 +1,18 @@
+[build]
+  base = "indusarva-website"
+  command = "npm run build"
+  publish = "indusarva-website/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production]
+  command = "npm run build"
+
+[context.deploy-preview]
+  command = "npm run build"
