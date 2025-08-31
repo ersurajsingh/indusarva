@@ -36,14 +36,7 @@ export interface SolutionOverviewProps {
 
 // Interactive Demo Types
 export interface InteractiveDemoProps {
-  questions: Array<{
-    id: string;
-    type: 'slider' | 'multiple_choice' | 'rating';
-    question: string;
-    options?: string[];
-    min?: number;
-    max?: number;
-  }>;
+  questions: AssessmentQuestion[];
   onComplete: (responses: DemoResponse[]) => void;
 }
 
