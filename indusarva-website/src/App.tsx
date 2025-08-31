@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 // Components
 import Navigation from './components/ui/Navigation';
@@ -30,7 +29,7 @@ function App() {
   const [demoCompleted, setDemoCompleted] = useState(false);
   const [scoreResult, setScoreResult] = useState<ScoreResult | null>(null);
 
-  const handleSectionChange = (sectionId: string) => {
+  const handleSectionChange = () => {
     // This is handled by the scroll spy, but we can add additional logic here if needed
   };
 

@@ -19,7 +19,7 @@ export const demoQuestions: AssessmentQuestion[] = [
   {
     id: 'saving_habits',
     category: 'financial_discipline',
-    type: 'multiple-choice',
+    type: 'multiple_choice',
     question: 'What percentage of your income do you typically save each month?',
     weight: 0.9,
     options: [
@@ -54,7 +54,7 @@ export const demoQuestions: AssessmentQuestion[] = [
   {
     id: 'innovation_adoption',
     category: 'forward_thinking',
-    type: 'multiple-choice',
+    type: 'multiple_choice',
     question: 'How do you typically approach new technology in your business?',
     weight: 0.6,
     options: [
@@ -104,7 +104,7 @@ export const demoQuestions: AssessmentQuestion[] = [
   {
     id: 'ethical_decisions',
     category: 'character',
-    type: 'multiple-choice',
+    type: 'multiple_choice',
     question: 'When faced with a difficult ethical decision in business, you:',
     weight: 0.9,
     options: [

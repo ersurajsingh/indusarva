@@ -21,8 +21,8 @@ const ScoreResults: React.FC<ScoreResultsProps> = ({ scoreResult, onRestart }) =
     character: 'Character'
   };
 
-  const getInsights = () => {
-    const insights = [];
+  const getInsights = (): Array<{type: 'strength' | 'improvement', category: string, message: string}> => {
+    const insights: Array<{type: 'strength' | 'improvement', category: string, message: string}> = [];
     
     Object.entries(breakdown).forEach(([category, score]) => {
       const label = categoryLabels[category as keyof typeof categoryLabels];

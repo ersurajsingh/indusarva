@@ -38,7 +38,7 @@ export interface SolutionOverviewProps {
 export interface InteractiveDemoProps {
   questions: Array<{
     id: string;
-    type: 'slider' | 'multiple-choice' | 'rating';
+    type: 'slider' | 'multiple_choice' | 'rating';
     question: string;
     options?: string[];
     min?: number;

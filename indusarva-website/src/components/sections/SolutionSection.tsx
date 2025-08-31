@@ -4,7 +4,7 @@ import type { SolutionOverviewProps } from '../../types';
 
 const SolutionSection: React.FC<SolutionOverviewProps> = ({ pillars }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [expandedPillar, setExpandedPillar] = useState<number | null>(null);
 
   const togglePillar = (index: number) => {

@@ -172,7 +172,7 @@ const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ questions, onComplete
                     />
                   )}
                   
-                  {currentQuestion.type === 'multiple-choice' && (
+                  {currentQuestion.type === 'multiple_choice' && (
                     <MultipleChoiceQuestion
                       question={currentQuestion.question}
                       options={currentQuestion.options || []}

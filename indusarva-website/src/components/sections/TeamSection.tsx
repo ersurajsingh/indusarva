@@ -4,7 +4,7 @@ import type { TeamProfilesProps } from '../../types';
 
 const TeamSection: React.FC<TeamProfilesProps> = ({ members }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [expandedMember, setExpandedMember] = useState<number | null>(null);
 
   const toggleMember = (index: number) => {

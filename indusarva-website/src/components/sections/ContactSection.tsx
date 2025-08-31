@@ -5,7 +5,7 @@ import { CONTACT_INFO } from '../../types';
 
 const ContactSection: React.FC<ContactSectionProps> = ({ contactTypes }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [selectedContactType, setSelectedContactType] = useState<string>('investor');
   const [formData, setFormData] = useState({
     name: '',

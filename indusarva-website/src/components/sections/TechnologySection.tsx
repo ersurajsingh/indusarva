@@ -4,7 +4,7 @@ import type { TechnologyStackProps } from '../../types';
 
 const TechnologySection: React.FC<TechnologyStackProps> = ({ technologies }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [hoveredTech, setHoveredTech] = useState<string | null>(null);
 
   return (
