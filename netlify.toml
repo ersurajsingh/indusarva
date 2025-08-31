@@ -1,7 +1,7 @@
 [build]
   base = "indusarva-website"
   command = "npm run build"
-  publish = "indusarva-website/dist"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
