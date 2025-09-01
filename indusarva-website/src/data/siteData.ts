@@ -163,30 +163,33 @@ export const teamData: TeamProfilesProps = {
     {
       name: 'Suraj Kumar Singh',
       role: 'Co-Founder & CEO',
-      bio: 'Visionary leader with extensive experience in fintech innovation and AI-driven financial solutions. Former senior executive at Paytm, where he led initiatives serving millions of users.',
+      bio: 'Visionary entrepreneur and fintech innovator with a proven track record of building impactful solutions. Graduate of University of Petroleum & Energy Studies, Dehradun. Former executive at Paytm with multiple awards including first prize in Data Economics at Junction Hackathon and recognition from the German government for COVID-19 innovation.',
       experience: [
-        'Senior Vice President at Paytm - Led digital lending and credit assessment initiatives',
-        'Scaled financial products serving 100M+ users across India',
-        'Expert in regulatory compliance and fintech product development',
-        'Pioneer in mobile-first financial services and digital payments',
-        'MBA in Finance with specialization in emerging markets'
+        'Former executive at Paytm - Led fintech initiatives and digital innovation',
+        'First Prize Winner - Data Economics Track at Junction Hackathon',
+        'Awarded by German Government for Oxygen Leak Detector innovation during COVID-19 at International Health Summit',
+        'Founded medtech startup with government incubation (healthcare innovation)',
+        'Fellow of BeVisioneers: The Mercedes Benz Fellowship Program',
+        'Graduate of University of Petroleum & Energy Studies, Dehradun',
+        'Multiple competition wins and innovation awards in technology and entrepreneurship'
       ],
       image: '',
-      linkedin: 'https://linkedin.com/in/surajkumarsingh'
+      linkedin: 'https://www.linkedin.com/in/surajsinghindusarvaa'
     },
     {
       name: 'Rahul Pandey',
       role: 'Co-Founder & CTO',
-      bio: 'Technology architect and AI specialist with deep expertise in machine learning and financial systems. Former technology leader at Maybank, one of Southeast Asia\'s largest banks.',
+      bio: 'Technology architect and AI specialist with deep expertise in credit scoring mechanisms and financial systems. Graduate of University of Petroleum & Energy Studies, Dehradun. Former technology professional at Maybank, where he worked extensively on credit scoring systems.',
       experience: [
-        'Chief Technology Officer at Maybank Digital - Architected next-gen banking platforms',
-        'Led AI/ML initiatives for credit risk assessment and fraud detection',
-        'Built scalable systems processing millions of transactions daily',
-        'Expert in cloud architecture, security, and regulatory technology',
-        'MS in Computer Science with focus on Machine Learning and AI'
+        'Former Technology Professional at Maybank - Specialized in credit scoring mechanisms',
+        'Expert in AI/ML applications for financial risk assessment',
+        'Graduate of University of Petroleum & Energy Studies, Dehradun',
+        'Deep expertise in machine learning algorithms for credit evaluation',
+        'Experienced in building scalable financial technology systems',
+        'Specialist in regulatory compliance and banking technology standards'
       ],
       image: '',
-      linkedin: 'https://linkedin.com/in/rahulpandey'
+      linkedin: 'https://www.linkedin.com/in/rahul-pandey-a68082198/'
     }
   ]
 };
